@@ -42,7 +42,7 @@ async function SearchResults({ params: { searchTerm } }: PageProps) {
     <div>
       {searchResults ? (
         <>
-          <p className="text-gray-500 text-sm">You searched for: {searchTerm}</p>
+          <p className="text-gray-500 text-sm p-2">You searched for: {searchTerm}</p>
           <ol className="space-y-5 p-5 text-blue-500">
             {organicResults.map((result) => (
               <li key={result.position} className="list-decimal">
@@ -59,6 +59,9 @@ async function SearchResults({ params: { searchTerm } }: PageProps) {
               </li>
             ))}
           </ol>
+          <div>
+          <rssapp-wall id="voT9RFDf7fY5IkCU"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+          </div>
         </>
       ) : (
         <p>Loading...</p>
