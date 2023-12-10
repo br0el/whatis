@@ -59,9 +59,6 @@ async function SearchResults({ params: { searchTerm } }: PageProps) {
               </li>
             ))}
           </ol>
-          <div>
-          <rssapp-wall id="voT9RFDf7fY5IkCU"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
-          </div>
         </>
       ) : (
         <p>Loading...</p>
