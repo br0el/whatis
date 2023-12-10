@@ -24,10 +24,11 @@ export default function RootLayout({
        
           <div className="flex-1 pl-5">
               <Search />
+
+              <div>{children}</div>
               <div className="py-4 ml-[-10px]">
           <rssapp-wall id="voT9RFDf7fY5IkCU"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
           </div>
-              <div>{children}</div>
           </div>
       </main>
       </body>
