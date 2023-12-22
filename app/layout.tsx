@@ -27,7 +27,7 @@ export default function RootLayout({
 
               <div>{children}</div>
               <div className="py-4 ml-[-10px]">
-          <rssapp-wall id="voT9RFDf7fY5IkCU"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
+          <rssapp-wall id="_GBI9swuZjzeZVXvM"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
           </div>
           </div>
       </main>
